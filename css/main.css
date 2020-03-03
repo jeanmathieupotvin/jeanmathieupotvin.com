@@ -1,3 +1,4 @@
+/* Viewports. */
 @-ms-viewport
 {
     width: device-width;
@@ -10,252 +11,84 @@
 {
     width: device-width;
 }
-a,
-a:hover,
-a:visited,
-a:link
+/* Body parts. */
+body
+{
+    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+
+    margin: auto;
+    width: auto;
+    max-width: 800px;
+
+    background-color: #fcfcfc;
+}
+header
+{
+    margin-top: 64px;
+}
+footer
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+    margin-top: 10px;
+    
+    color: #8b8b8b;
+
+    line-height: 1;
+}
+/* Links. */
+a, a:hover, a:visited, a:link
 {
     text-decoration: none;
     color: #2a4f8f;
 }
-body
+/* Horizontal lines consistent with HTML5. */
+/* Source: https://love2dev.com/blog/html-horizontal-line/ */
+hr
 {
-    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
-    width: auto;
-    height: 100%;
-    min-height: 100%;
-    margin: 0;
-
-    background-color: #fcfcfc;
+    height: 0.5px;
+    
+    background-color: #8b8b8b;
+    opacity: 1;
 }
-html
-{
-    position: relative;
-
-    height: 100%;
-    min-height: 100%;
-    margin: 0;
-}
-li
-{
-    text-align: left;
-}
-.author
-{
-    color: #444;
-}
-.author h1,
-.author h2,
-.author h3,
-.author h4,
-.author h5,
-.author h6,
-.author p
-{
-    font-family: 'Roboto Slab', serif;
-}
-.category
-{
-    color: #966 !important;
-}
-.container
-{
-    overflow: auto;
-
-    max-width: 680px;
-    padding: 0 15px;
-}
-.content
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-div.content
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-
-    color: #777;
-}
-.copyright
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-}
-.description
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    color: #8b8b8b;
-}
-.error
-{
-    font-family: 'Roboto', sans-serif;
-
-    margin-top: 100px;
-}
-.error h1
-{
-    font-size: 80px;
-
-    color: #8b8b8b;
-}
-.error p
-{
-    margin-top: 150px;
-
-    color: #777;
-}
-.excerpt
-{
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
-
-    color: #555;
-    margin-bottom: 20px;
-}
-.footer
-{
-    margin-top: 10px;
-    color: #8b8b8b;
-}
-.header
-{
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-.headshot
+ /* Custom classes. */
+.jm-headshot
 {
     width: 200px;
     height: 200px;
 }
-.info
-{
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.intro
+.jm-author
 {
     font-family: 'Roboto Slab', serif;
-    font-weight: 200;
+    color: #444;
+}
+.jm-intro
+{
+    font-family: 'Roboto Slab', serif;
     color: #777;
 }
-h3.intro
-{
-    margin-top: 0px
-}
-.list
+.jm-description
 {
     font-family: 'Roboto', sans-serif;
+    color: #8b8b8b;
+    
+    text-align: center;
+}
+.jm-social-icons
+{
+    color: #777;
+}
+.jm-menu
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 
-    margin-top: 50px;
-}
-.list li
-{
-    list-style: none;
-}
-.list-entry
-{
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    font-weight: 400;
-
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.list-entry-link
-{
-    padding: 0;
-}
-.main-menu
-{
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.menu
-{
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.menu-item
-{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-
+    text-align: center;
     text-decoration: none;
-
-    color: #966 !important;
-}
-.meta
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-
-    color: #8b8b8b;
-}
-a.meta
-{
-    color: #966;
-}
-h6.meta
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-
-    color: #8b8b8b;
-}
-.powered
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-}
-.social {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.social,
-.social a
-{
-    color: #526d7a;
-}
-.title
-{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    color: #555;
-}
-header.title
-{
-    margin-top: 50px;
-    padding: 0 15px;
-}
-@media (max-width: 991px)
-{
-    .header
-    {
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-    .list
-    {
-        font-family: 'Roboto', sans-serif;
-
-        margin-top: 30px;
-    }
-}
-pre > code {
-    white-space: pre;
-    word-wrap: initial;
-    word-break: initial;
+    color: #2a4f8f;
 }
