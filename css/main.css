@@ -51,7 +51,7 @@ hr
     margin-left: auto;
     margin-right: auto;
 
-    height: 0.5px;
+    height: 0.1px;
     
     background-color: #8b8b8b;
     opacity: 1;
@@ -62,7 +62,7 @@ hr
     width: 200px;
     height: 200px;
 }
-.jm-author
+.jm-title
 {
     font-family: 'Roboto Slab', serif;
     color: #444;
@@ -76,8 +76,18 @@ hr
 {
     font-family: 'Roboto', sans-serif;
     color: #8b8b8b;
-    
     text-align: center;
+}
+.jm-prj-logo
+{
+    max-width: 25%;
+}
+.jm-prj-description
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: #2a4f8f;
 }
 .jm-social-icons
 {
@@ -85,9 +95,8 @@ hr
 }
 .jm-menu
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
-
     text-align: center;
     text-decoration: none;
     color: #2a4f8f;
