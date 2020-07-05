@@ -15,11 +15,9 @@
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
-
     margin: auto;
     width: auto;
     max-width: 800px;
-
     background-color: #fcfcfc;
 }
 header
@@ -30,11 +28,8 @@ footer
 {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-
     margin-top: 10px;
-    
     color: #8b8b8b;
-
     line-height: 1;
 }
 /* Links. */
@@ -50,9 +45,7 @@ hr
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
     height: 0.1px;
-    
     background-color: #8b8b8b;
     opacity: 1;
 }
@@ -61,6 +54,11 @@ hr
 {
     width: 200px;
     height: 200px;
+}
+.jm-headshot-small
+{
+    width: 150px;
+    height: 150px;
 }
 .jm-title
 {
@@ -76,7 +74,6 @@ hr
 {
     font-family: 'Roboto', sans-serif;
     color: #8b8b8b;
-    text-align: center;
 }
 .jm-prj-logo
 {
